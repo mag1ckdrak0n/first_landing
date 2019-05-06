@@ -1,0 +1,19 @@
+
+section:nth-child(6) {
+    padding: 2%;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--gray);
+    
+}
+ 
+
+section:nth-child(6) img {
+    padding: 40px;
+}
+
+.links-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}

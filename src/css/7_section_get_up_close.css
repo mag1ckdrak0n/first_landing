@@ -1,0 +1,55 @@
+section:nth-child(7) {
+    flex-flow: wrap;
+    flex-direction: row;
+    background-color: --white;
+    padding: 0.8em;
+    background-image: url("../img/background-section-7.png");
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+}
+
+.store:visited {
+    color: var(--white);
+}
+
+.store {
+    float: left;
+    width: 146px;
+    color: var(--white);
+    padding: 6px 0 6px 6px;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--black);
+    transition-duration: 0.2s;
+}
+
+.store:hover {
+    background-color: var(--gray);
+    color: var(--black);
+}
+
+.store img {
+    float: left;
+    padding: 0.15rem;
+}
+
+.store__text1 {
+    padding: 0.8rem 0 0.8rem 0.8rem;
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+}
+
+.store__text2 {
+    padding: 0.8rem 0 0.8rem 0.8rem;
+    line-height: 0.9rem;
+}
+
+.container {
+    width: 50%;
+    padding: 60px 0 78px 0;
+}
+
+.container>p {
+    width: 75%;
+    margin-bottom: 45px;
+}

@@ -1,0 +1,23 @@
+section:first-child {
+    display: block;
+    flex-direction: row;
+    background: url("../img/1_section_background.png") no-repeat top right, var(--gray);
+}
+
+section:first-child p {
+    font-size: 18px;
+    width: 80%;
+}
+
+.section1-content-container {
+    width: 40%;
+    padding: 75px 0 240px 175px;
+}
+
+.section1-content-container > * {
+    margin: 25px 0;
+}
+
+.section1_logo {
+    margin-bottom: 100px;
+}

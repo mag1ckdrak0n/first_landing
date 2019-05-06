@@ -1,0 +1,34 @@
+footer {
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    max-width: 1440px;
+    color: var(--white);
+    justify-content: space-around;
+    background-color: var(--blue);
+  }
+  
+  footer a {
+    color: var(--white);
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  nav {
+
+  }
+  
+  nav a {
+    padding: 0 18px;
+  }
+  
+  nav a:visited {
+    color: inherit;
+  }
+  
+  .reference a {
+    padding: 0 8px;
+  }

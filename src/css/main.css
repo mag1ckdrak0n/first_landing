@@ -1,0 +1,57 @@
+@import 'normalize.css';
+@import 'variables.css';
+@import '1_section_get_a_personalized_football_experience.css';
+@import '2_section_what_it_does.css';
+@import '3_section_get_started.css';
+@import '4_section_features.css';
+@import '5_section_what_our_users_says.css';
+@import '6_section_feutered_in.css';
+@import '7_section_get_up_close.css';
+@import '8_section_footer.css';
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+h1 {
+  font-size:2.3rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 3.4rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+body {
+  background-color: var(--white);
+  color: black;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+section {
+  display: flex;
+  overflow: hidden;
+  max-width: 1440px;
+}
+
+main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+}

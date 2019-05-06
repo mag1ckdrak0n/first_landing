@@ -1,0 +1,120 @@
+section:nth-child(5) {
+  align-items: center;
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+.twitter--container {
+  display: flex;
+  max-width: 1440px;
+  position: relative;
+  justify-content: center;
+  margin: 25px 0 100px 0;
+}
+
+.twitter--container a {
+  margin-right: 40px;
+}
+
+.twitter {
+  color: var(--black);
+  width: 285px;
+  height: 132px;
+  display: grid;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid rgb(175, 172, 172);
+  grid-template-columns: 50px auto 25px;
+  grid-template-areas:
+    "avatar  name logo"
+    "text text text";
+  align-items: center;
+}
+
+.twitter p {
+  width: 95%;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.twitter__avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 2px var(--blue);
+  grid-area: avatar;
+}
+
+.twitter__profile-name {
+  grid-area: name;
+  font-weight: bold;
+}
+
+.twitter__logo {
+  grid-area: logo;
+}
+
+.twitter__message {
+  grid-area: text;
+  line-height: 1.3rem;
+}
+
+.gradient-pattern__prev, .gradient-pattern__next  {
+  position: absolute;
+  z-index: 2;
+  height: 164px;
+  display: flex;
+}
+
+.gradient-pattern__prev {
+  left: 0;
+  padding-left: 100px;
+  background: linear-gradient(90deg, rgb(255, 255, 255) 15%, rgba(255, 255, 255, 0) 100%);
+}
+
+.gradient-pattern__next {
+  right: 0;
+  padding-right: 100px;
+  background: linear-gradient(90deg, rgba(136, 18, 18, 0) 0%, rgb(255, 255, 255) 85%);
+}
+
+.prev,
+.next {
+  z-index: 4;
+  width: 47px;
+  height: 47px;
+  align-self: center;
+  color: var(--blue);
+  border-radius: 50%;
+  border: 1px solid var(--blue);
+  background-color: var(--white);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.prev:hover,
+.next:hover {
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--gray);
+  transition-duration: 0.2s;
+}
+
+.next-arrow, .prev-arrow {
+  width: 7px;
+  height: 7px;
+  transform: rotate(45deg);
+}
+
+.next-arrow {
+  border: 1.5px solid var(--blue);
+  border-left: none;
+  border-bottom: none;
+  margin-left: 11px;
+}
+
+.prev-arrow {
+  border: 1.5px solid var(--blue);
+  border-right: none;
+  border-top: none;
+  margin-left: 14px;
+}

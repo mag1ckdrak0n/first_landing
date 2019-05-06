@@ -1,0 +1,37 @@
+section:nth-child(2) {
+    
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%), url("../img/2_section_background.png") no-repeat;
+}
+
+.what_it_does {
+    padding: 120px 0px 100px 0px;
+    justify-content: center;
+}
+
+.what_it_does>a,
+h2 {
+    font-weight: bold;
+}
+
+.what_it_does>p {
+    width: 400px;
+}
+
+.section2_sample1,
+.section2_sample2 {
+    position: relative;
+}
+
+.section2_sample1 {
+    z-index: 2;
+    top: 80px;
+    left: 100px;
+}
+
+.section2_sample2 {
+    top: 190px;
+    right: 190px;
+    z-index: 1;
+    border-radius: 4px;
+    box-shadow: -17px 16px 50px -8px rgba(0, 0, 0, 0.75);
+}
