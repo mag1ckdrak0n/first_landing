@@ -1,5 +1,4 @@
 ### First_Landing
-- [GIT repo](https://github.com/mag1ckdrak0n/first_landing/tree/gh-pages)
 - [Preview build](https://mag1ckdrak0n.github.io/first_landing/build)
 - [Preview source](https://mag1ckdrak0n.github.io/first_landing/build)
 
