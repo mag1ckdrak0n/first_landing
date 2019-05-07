@@ -9,7 +9,7 @@ section:nth-child(5) {
   max-width: 1440px;
   position: relative;
   justify-content: center;
-  margin: 25px 0 100px 0;
+  margin: 25px 0 45px 0;
 }
 
 .twitter--container a {
@@ -59,7 +59,8 @@ section:nth-child(5) {
   line-height: 1.3rem;
 }
 
-.gradient-pattern__prev, .gradient-pattern__next  {
+.gradient-pattern__prev,
+.gradient-pattern__next {
   position: absolute;
   z-index: 2;
   height: 164px;
@@ -99,7 +100,8 @@ section:nth-child(5) {
   transition-duration: 0.2s;
 }
 
-.next-arrow, .prev-arrow {
+.next-arrow,
+.prev-arrow {
   width: 7px;
   height: 7px;
   transform: rotate(45deg);
@@ -117,4 +119,51 @@ section:nth-child(5) {
   border-right: none;
   border-top: none;
   margin-left: 14px;
+}
+
+/* slider */
+
+.slider {
+  display: flex;
+}
+
+.slider>span {
+  width: 15px;
+  height: 15px;
+  margin: 0 5.5 50px;
+  border-radius: 50%;
+}
+
+.slider>span:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: -1px 1px 1px 1px rgba(78, 78, 78, 0.75);
+}
+
+.circle_1 {
+  background-color: #828282;
+}
+
+.circle_2 {
+  background-color: #979595;
+}
+
+.circle_3 {
+  background-color: #B2B0B0;
+}
+
+.circle_4 {
+  background-color: #CDCBCB;
+}
+
+.circle_5 {
+  background-color: #E2E1E1;
+}
+
+.circle_6 {
+  background-color: #EEEEEE;
+}
+
+.circle_7 {
+  background-color: #F7F7F7;
 }

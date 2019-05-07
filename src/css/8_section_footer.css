@@ -17,10 +17,6 @@ footer {
     text-decoration: underline;
   }
   
-  nav {
-
-  }
-  
   nav a {
     padding: 0 18px;
   }
@@ -31,4 +27,9 @@ footer {
   
   .reference a {
     padding: 0 8px;
+  }
+
+
+  .reference a img:hover {
+    transform: scale(1.1);
   }
